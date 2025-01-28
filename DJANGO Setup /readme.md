@@ -1,6 +1,6 @@
 # Django Project Setup Script
 
-This script automates the setup of a basic Django project and an app, streamlining the process of starting a new Django development environment.
+This script automates the setup of a basic Django project and app, making it easier to start a new Django development environment.
 
 ## Features
 - Creates a virtual environment for the project.
@@ -13,10 +13,10 @@ This script automates the setup of a basic Django project and an app, streamlini
 
 ## Prerequisites
 Before running the script, ensure the following are installed on your system:
-- Python 3.x
-- `pip` (Python package manager)
-- `venv` module (comes with Python 3.x)
-- Bash shell (Linux, macOS, or WSL for Windows)
+- **Python 3.x**
+- **`pip`** (Python package manager)
+- **`venv`** module (comes with Python 3.x)
+- **Bash shell** (Linux, macOS, or WSL for Windows)
 
 ## Usage
 
@@ -27,12 +27,12 @@ Before running the script, ensure the following are installed on your system:
    Open a terminal and run:
    ```bash
    chmod +x django_setup.sh
-````
+   ````
 
-
-<h1>Folder Structure:</h1>
-````bash
-myproject/                     # Root project directory
+   Folder Structure:
+   After running the script, the generated folder structure will look like this:
+   ````bash
+   myproject/                     # Root project directory
 ├── env/                       # Virtual environment directory (created by the script)
 ├── myproject/                 # Django project directory
 │   ├── __init__.py            # Marks the directory as a Python package
@@ -54,6 +54,3 @@ myproject/                     # Root project directory
 │   └── __pycache__/           # Compiled Python files
 ├── manage.py                  # Django management script
 └── db.sqlite3                 # SQLite database (created after migrations)
-
-
-````
