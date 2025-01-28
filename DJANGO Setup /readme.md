@@ -33,24 +33,24 @@ Before running the script, ensure the following are installed on your system:
    After running the script, the generated folder structure will look like this:
    ````bash
    myproject/                     # Root project directory
-├── env/                       # Virtual environment directory (created by the script)
-├── myproject/                 # Django project directory
-│   ├── __init__.py            # Marks the directory as a Python package
-│   ├── asgi.py                # ASGI configuration for the project
-│   ├── settings.py            # Main project settings file
-│   ├── urls.py                # URL routing configuration
-│   ├── wsgi.py                # WSGI configuration for deployment
-│   └── __pycache__/           # Compiled Python files
-├── myapp/                     # Django app directory
-│   ├── migrations/            # Database migration files
-│   │   ├── __init__.py        # Marks the directory as a Python package
-│   │   └── ...                # Auto-generated migration files
-│   ├── __init__.py            # Marks the directory as a Python package
-│   ├── admin.py               # Admin site configuration
-│   ├── apps.py                # App configuration
-│   ├── models.py              # Database models
-│   ├── tests.py               # Automated tests
-│   ├── views.py               # Application logic
-│   └── __pycache__/           # Compiled Python files
-├── manage.py                  # Django management script
-└── db.sqlite3                 # SQLite database (created after migrations)
+   ├── env/                       # Virtual environment directory (created by the script)
+   ├── myproject/                 # Django project directory
+   │   ├── __init__.py            # Marks the directory as a Python package
+   │   ├── asgi.py                # ASGI configuration for the project
+   │   ├── settings.py            # Main project settings file
+   │   ├── urls.py                # URL routing configuration
+   │   ├── wsgi.py                # WSGI configuration for deployment
+   │   └── __pycache__/           # Compiled Python files
+   ├── myapp/                     # Django app directory
+   │   ├── migrations/            # Database migration files
+   │   │   ├── __init__.py        # Marks the directory as a Python package
+   │   │   └── ...                # Auto-generated migration files
+   │   ├── __init__.py            # Marks the directory as a Python package
+   │   ├── admin.py               # Admin site configuration
+   │   ├── apps.py                # App configuration
+   │   ├── models.py              # Database models
+   │   ├── tests.py               # Automated tests
+   │   ├── views.py               # Application logic
+   │   └── __pycache__/           # Compiled Python files
+   ├── manage.py                  # Django management script
+   └── db.sqlite3                 # SQLite database (created after migrations)
